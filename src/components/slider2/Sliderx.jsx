@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./Slider2.css";
 
-export default function Slider2() {
+export default function Sliderx() {
   const { filteredProducts: products, loading, error } = useProducts();
   const { addToCart } = useCart();
   const { t } = useTranslation();
