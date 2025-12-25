@@ -1,0 +1,17 @@
+.product-card {
+  transition: transform 0.2s ease-in-out;
+  background: #fff;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.product-img {
+  max-height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+.banner-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+}

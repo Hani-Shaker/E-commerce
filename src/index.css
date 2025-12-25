@@ -1,0 +1,125 @@
+:root{
+    --main-color: #49BFAA;
+    --hover-color:#00cc88;
+    --active-color:#009966;
+    --disabled-color:#b2e5d6;
+    --border:8px;
+    --margin-home: 30px 0;
+    --text-color:#6c757d;
+}
+.main-button{
+    background-color: var(--main-color)!important;
+    color: white!important;
+    border: none!important;
+}
+
+.main-button:hover {
+    background-color: white !important;
+    color: var(--main-color) !important;
+    border: 1px solid var(--main-color) !important;
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Playfair+Display:wght@400;700&family=Merriweather:wght@400;700&family=Inter:wght@400;700&display=swap'); */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+blockquote {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  font-family: 'Lato', sans-serif;
+}
+
+footer {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.viewer-blur{
+    animation: viewer-blur both;
+    animation-timeline: view();  
+    animation-range: entry 0 cover 20%;
+}
+.viewer-to-right{
+    animation: viewer-to-right both;
+    animation-timeline: view();  
+    animation-range: entry 0 cover 20%;
+}
+.viewer-to-left{
+    animation: viewer-to-left both;
+    animation-timeline: view();  
+    animation-range: entry 0 cover 20%;  
+}
+.viewer-to-top{
+    animation: viewer-to-top both;
+    animation-timeline: view();  
+    animation-range: entry 0 cover 20%;  
+}
+@keyframes viewer-to-left {
+    0%{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+@keyframes viewer-to-right {
+    0%{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+@keyframes viewer-to-top {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+@keyframes viewer-blur {
+    0%{
+        filter: blur(30px);
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+        filter: blur(0);
+    }
+}

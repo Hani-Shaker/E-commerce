@@ -1,0 +1,29 @@
+.page-404 h1 {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 6rem;
+  user-select: none;
+}
+
+.page-404 p {
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
+.page-404 a {
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.page-404 a:hover {
+  background-color: var(--hover-color);
+}
+
+.page-404 a:active {
+  background-color: var(--active-color);
+}

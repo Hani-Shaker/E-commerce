@@ -1,0 +1,106 @@
+.blog-page{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.left{
+    width: 67%;
+}
+.right{
+    width: 25%;
+}
+.water-bottle img{
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.recent-posts{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.recent-posts h2{
+    font-size: 11px;
+}
+.posts-content img{
+    border-radius: 50%;
+}
+.posts-content p{
+    font-size: 11px;
+    margin-left: 10px;
+}
+.grocery p{
+    font-size: 11px;
+}
+.grocery h2{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.grocery span{
+    font-size: 11px;
+}
+
+.coffie-nut img{
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.social-media h2{
+    font-size: 11px;
+}
+.social-media img{
+    width: 90%;
+    height: auto;
+    padding: 1px;
+    cursor: pointer;
+}
+.social-media img:hover{
+    opacity: .9;
+}
+
+.banner h2{
+    font-size: 11px;
+}
+.banner img{
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.tags h2{
+    width: 90%;
+    font-size: 13px;
+}
+.tags span{
+    border: .5px solid rgb(128, 128, 128, 0.2);
+    padding: 4px 8px;
+    margin: 3px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 11px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .blog-page{
+        width: 90%;
+    }
+    .left, .right{
+        width: 100%;
+        margin: 0 2px;
+    }
+    .water-bottle img, .coffie-nut img, .recent-posts, .social-media img, .banner img{
+        width: 100%;
+    }
+    .grocery h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .blog-page{
+        width: 95%;
+    }
+    .grocery h2{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,36 @@
+/* Page background */
+.register-page {
+  background-color: #f8f9fa;
+}
+
+/* Card box */
+.register-card {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* Title */
+.register-title {
+  color: #49bfaa;
+}
+
+/* Input icons background */
+.icon-box {
+  background: #49bfaa;
+  color: #fff;
+}
+
+/* Button */
+
+
+/* Login link */
+.login-link {
+  color: #49bfaa;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+.about-container{
+    width: 100%;
+}   
+.img-heder img{
+    width: 100%;
+    height: 280px;
+    margin-bottom: 20px;
+}
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.img-header img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-content {
+  width: 100%;
+}
+
+.img-box {
+  background-image: url(../../assets/images/About2.jpeg);
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+h2, h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .img-header img {
+    max-height: 200px;
+  }
+
+  .img-box {
+    min-height: 200px;
+  }
+}

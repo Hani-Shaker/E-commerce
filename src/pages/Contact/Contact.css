@@ -1,0 +1,11 @@
+.text-teal {
+  color: #20bfa9!important;
+}
+.btn-teal {
+  background-color: #20bfa9!important;
+  color: #fff!important;
+  border: none!important;
+}
+.btn-teal:hover {
+  background-color: #17a391!important;
+}

@@ -1,0 +1,17 @@
+.checkout-container {
+  max-width: 1200px;
+}
+
+.order-summary img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.shipping-method {
+  background-color: #f8faff;
+}
+
+.payment-box {
+  background-color: #fafafa;
+}

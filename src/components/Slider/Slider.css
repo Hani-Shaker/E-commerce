@@ -1,0 +1,73 @@
+.categories-box {
+  background: #fff;
+  border-radius: 12px;
+  position: relative;
+}
+
+.cat-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  /* height: fit-content; */
+  min-height: 280px;
+}
+
+.cat-card:hover {
+  transform: translateY(-5px);
+}
+
+.img-wrap {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cat-info .cat-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.cat-info .cat-items {
+  font-size: 14px;
+  color: #777;
+}
+
+/* تعديل شكل أزرار المكتبة */
+.swiper-button-prev,
+.swiper-button-next {
+  background: #ffffff;
+  color: #000000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #f1f1f1;
+}
+
+/* Responsive fix */
+@media (max-width: 576px) {
+  .img-wrap {
+    height: 120px;
+  }
+}

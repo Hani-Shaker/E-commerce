@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
+.cont-shop {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Sidebar */
+.filter-box {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+/* Hero */
+.hero-shop {
+  background-image: url("../../assets/images/bg1.jpeg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  min-height: 200px;
+}
+.cont-hero-shop {
+  max-width: 350px;
+}
+
+/* Product Card */
+.card {
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Offer Badge */
+.offer-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #dc3545;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Pagination */
+.pagination .page-item.active .page-link {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.offer {
+  background-color: var(--main-color) !important; 
+  color: white;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+}

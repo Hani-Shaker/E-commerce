@@ -1,0 +1,36 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f9fa;
+}
+
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  animation: fadeInDown 0.6s ease;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #49bfaa;
+}
+
+.input-group-text {
+  background: #49bfaa;
+  color: #fff;
+  border: none;
+}
+
+
+.create-account-now{
+  text-decoration: none;
+  color: var(--main-color);
+  text-transform: capitalize;
+}
