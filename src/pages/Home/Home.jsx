@@ -24,7 +24,9 @@ function Home() {
 <BestSeller />
 {/* // end Best Seller section */}
 {/* // Slider2 section */}
+
 {/* <Slider2 /> */}
+
 {/* // end Slider2 section */}
 {/* // Home Blog section */}
 <HomeBlog />

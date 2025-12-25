@@ -2,7 +2,13 @@ import "./Loader.css"
 
 function Loader() {
   return (
-    <div>Loader</div>
+    <div className="loader-container">
+      <div className="loader-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
   )
 }
 
