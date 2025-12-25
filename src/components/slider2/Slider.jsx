@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import "./slider2.css";
+import "./slider.css";
 
 export default function Slider() {
   const { filteredProducts: products, loading, error } = useProducts();
