@@ -1,7 +1,7 @@
 import "./Home.css"
 import BestSeller from "../../components/BestSeller/BestSeller"
 import Slider from "../../components/Slider/Slider"
-import Slider2 from "../../components/Slider2/Sliderx";
+import Slider2 from "../../components/Slider2";
 import Hero from "../../components/Hero/Hero"
 import HomeBlog from "../../components/HomeBlog/HomeBlog"
 import { useEffect } from "react"
