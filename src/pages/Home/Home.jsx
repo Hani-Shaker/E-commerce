@@ -1,7 +1,7 @@
 import "./Home.css"
 import BestSeller from "../../components/BestSeller/BestSeller"
 import Slider from "../../components/Slider/Slider"
-import Slider2 from "../../components/Slider2";
+// import Slider2 from "../../components/Slider2";
 import Hero from "../../components/Hero/Hero"
 import HomeBlog from "../../components/HomeBlog/HomeBlog"
 import { useEffect } from "react"
@@ -24,7 +24,7 @@ function Home() {
 <BestSeller />
 {/* // end Best Seller section */}
 {/* // Slider2 section */}
-<Slider2 />
+{/* <Slider2 /> */}
 {/* // end Slider2 section */}
 {/* // Home Blog section */}
 <HomeBlog />
