@@ -9,9 +9,9 @@ import { useNavigate } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import "./SliderTow.css";
+import "./SliderTwo.css";
 
-export default function SliderTow() {
+export default function SliderTwo() {
   const { filteredProducts: products, loading, error } = useProducts();
   const { addToCart } = useCart();
   const { t } = useTranslation();
